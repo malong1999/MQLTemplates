@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="maxiaobu.mqltemplate.fragment.MaterialFragment">
+
+    <Button
+        android:id="@+id/btn_appbar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="appbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorPrimary"
+
+        />
+
+</LinearLayout>
