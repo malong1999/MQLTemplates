@@ -30,5 +30,6 @@ public class App extends Application {
         super.onCreate();
         instance=this;
         Utils.init(this);
+        sIRequest = new IRequest(instance);
     }
 }
