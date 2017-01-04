@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="maxiaobu.mqltemplate">
 
-    <!--网络访问权限-->
+    <!-- 网络访问权限 -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -14,15 +14,33 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".MainActivity">
         </activity>
-        <!--主界面-->
-        <activity
-            android:name=".activity.HomeActivity"
-            android:screenOrientation="portrait">
+        <!-- 主界面 -->
+        <activity android:name=".activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".activity.CollapsingListActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.PagerTabsParallaxImageActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.ScrollToolbarActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.CollapseLargeToolbarActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.ScrollCollapseLargeToolbarActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.ParallaxImageToolbarActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.CustomBehaviorActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.CollapsingSnackbarActivity">
+        </activity>
+        <activity android:name=".activity.collapsing.CollapsingPagerTabsActivity">
+        </activity>
+        <activity android:name=".activity.FabListActivity">
         </activity>
     </application>
 

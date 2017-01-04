@@ -1,4 +1,4 @@
-package maxiaobu.mqltemplate.weight.nestedscroll;
+package maxiaobu.mqltemplate.weiget.nestedscroll;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

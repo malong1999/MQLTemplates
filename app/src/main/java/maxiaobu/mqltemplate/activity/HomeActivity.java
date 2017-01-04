@@ -10,7 +10,7 @@ import butterknife.ButterKnife;
 import maxiaobu.mqltemplate.R;
 import maxiaobu.mqltemplate.base.BaseAty;
 import maxiaobu.mqltemplate.fragment.HomeFragment;
-import maxiaobu.mqltemplate.weight.nestedscroll.WrapContentHeightViewPager;
+import maxiaobu.mqltemplate.weiget.nestedscroll.WrapContentHeightViewPager;
 import maxiaobu.mxbutilscodelibrary.BarUtils;
 
 public class HomeActivity extends BaseAty {

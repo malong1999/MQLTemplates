@@ -1,13 +1,19 @@
 package maxiaobu.mqltemplate.fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
 
+import butterknife.Bind;
+import butterknife.ButterKnife;
 import maxiaobu.mqltemplate.R;
+import maxiaobu.mqltemplate.activity.CollapsingListActivity;
+import maxiaobu.mqltemplate.activity.FabListActivity;
 import maxiaobu.mqltemplate.activity.HomeActivity;
 import maxiaobu.mqltemplate.base.BaseFrg;
 
@@ -22,6 +28,12 @@ import maxiaobu.mqltemplate.base.BaseFrg;
 public class MaterialFragment extends BaseFrg {
 
 
+    @Bind(R.id.btn_appbar)
+    Button mBtnAppbar;
+    @Bind(R.id.container)
+    LinearLayout mContainer;
+    @Bind(R.id.btn_fab)
+    Button mBtnFab;
     private View mRootView;
 
     public MaterialFragment() {
@@ -31,20 +43,40 @@ public class MaterialFragment extends BaseFrg {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_material, container, false);
+        ButterKnife.bind(this, mRootView);
         initView();
         initData();
+
         return mRootView;
     }
 
     @Override
     public void initView() {
-        ((HomeActivity)getActivity()).getViewPager().setObjectForPosition(mRootView,0);
+        ((HomeActivity) getActivity()).getViewPager().setObjectForPosition(mRootView, 0);
 
     }
 
     @Override
     public void initData() {
+        mBtnAppbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), CollapsingListActivity.class));
+            }
+        });
+
+        mBtnFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), FabListActivity.class));
+            }
+        });
 
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        ButterKnife.unbind(this);
+    }
 }

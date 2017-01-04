@@ -30,8 +30,8 @@ import jp.wasabeef.glide.transformations.BlurTransformation;
 import maxiaobu.mqltemplate.R;
 import maxiaobu.mqltemplate.adapter.FrgViewPagerAdapter;
 import maxiaobu.mqltemplate.base.BaseFrg;
-import maxiaobu.mqltemplate.weight.nestedscroll.MyNestedScrollView;
-import maxiaobu.mqltemplate.weight.nestedscroll.WrapContentHeightViewPager;
+import maxiaobu.mqltemplate.weiget.nestedscroll.MyNestedScrollView;
+import maxiaobu.mqltemplate.weiget.nestedscroll.WrapContentHeightViewPager;
 
 /**
  * Created by 马小布 on 2017/1/3.
@@ -109,6 +109,8 @@ public class HomeFragment extends BaseFrg {
                 Log.d("HomeFragment", "mViewpager.getHeight():" + mViewpager.getHeight());
             }
         },200);
+
+
 
     }
 

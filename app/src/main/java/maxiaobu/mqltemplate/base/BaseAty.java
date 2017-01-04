@@ -41,7 +41,7 @@ public abstract class  BaseAty extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        App.getRequestInstance().getRequestManager().cancelAll(this);
+//        App.getRequestInstance().getRequestManager().cancelAll(this);
     }
 
     @Override

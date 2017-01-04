@@ -8,10 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
         <item name="android:textColorSecondary">@color/colorTextThird</item>
+        <item name="android:screenOrientation">portrait</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
-        <item name="android:fitsSystemWindows">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

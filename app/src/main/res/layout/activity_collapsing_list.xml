@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_collapsing_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="maxiaobu.mqltemplate.activity.CollapsingListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/pager_tabs_fixed_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="iv折叠+viewpager+tablayout+都消失"/>
+
+
+        <TextView
+            android:id="@+id/scroll_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="上划actionbar消失"/>
+
+        <TextView
+            android:id="@+id/collapse_large_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="折叠+上fab"/>
+
+        <TextView
+            android:id="@+id/scroll_collapse_large_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="折叠+actionbar消失+下fab"/>
+
+        <TextView
+            android:id="@+id/parallax_image_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="iv折叠+上fab"/>
+
+        <TextView
+            android:id="@+id/custom_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="自定义行为"/>
+
+        <TextView
+            android:id="@+id/snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="snackbar+fab"/>
+
+        <TextView
+            android:id="@+id/pager_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="16dp"
+            android:text="tablayout保留+actionbar消失"/>
+
+
+    </LinearLayout>
+</ScrollView>
