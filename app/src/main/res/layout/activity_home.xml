@@ -218,7 +218,7 @@
             />
     </android.support.design.widget.AppBarLayout>
 
-    <maxiaobu.mqltemplate.weight.nestedscroll.MyNestedScrollView
+    <maxiaobu.mqltemplate.weiget.nestedscroll.MyNestedScrollView
         android:id="@+id/nested_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -226,11 +226,11 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
 
-        <maxiaobu.mqltemplate.weight.nestedscroll.WrapContentHeightViewPager
+        <maxiaobu.mqltemplate.weiget.nestedscroll.WrapContentHeightViewPager
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
             />
-    </maxiaobu.mqltemplate.weight.nestedscroll.MyNestedScrollView>
+    </maxiaobu.mqltemplate.weiget.nestedscroll.MyNestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

@@ -15,7 +15,9 @@
         <activity android:name=".MainActivity">
         </activity>
         <!-- 主界面 -->
-        <activity android:name=".activity.HomeActivity">
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -41,6 +43,10 @@
         <activity android:name=".activity.collapsing.CollapsingPagerTabsActivity">
         </activity>
         <activity android:name=".activity.FabListActivity">
+            </activity>
+        <activity android:name=".activity.patterns.BannersActivity">
+        </activity>
+        <activity android:name=".activity.patterns.AdDialogActivity">
         </activity>
     </application>
 

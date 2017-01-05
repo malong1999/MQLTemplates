@@ -102,7 +102,7 @@
         android:layout_gravity="left|top"
         android:layout_margin="8dp"
         android:src="@mipmap/test_header"
-        app:layout_behavior="maxiaobu.mqltemplate.weight.behaviors.TeamImageBehavior"/>
+        app:layout_behavior="maxiaobu.mqltemplate.weiget.behaviors.TeamImageBehavior"/>
 
     <ImageView
         android:id="@+id/custom_behavior_image_teamB"
