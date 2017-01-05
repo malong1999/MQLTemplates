@@ -4,10 +4,14 @@
              android:layout_height="match_parent"
              tools:context="maxiaobu.mqltemplate.fragment.PatternsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"/>
+    <Button
+        android:id="@+id/btn_banner"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="轮播条"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+
+        />
 
 </FrameLayout>
